@@ -14,9 +14,11 @@ export default function Search() {
       <button type="submit" className="button" id="button">
         Submit
       </button>
-      <button type="button" class="button" id="currentbtn">
-        📍
-      </button>
+      <span>
+        <button type="button" class="button" id="currentbtn">
+          📍
+        </button>{" "}
+      </span>
     </div>
   );
 }
